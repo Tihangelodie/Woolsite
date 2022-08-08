@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#hamburger-menu {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border: none;
+  padding: 0px;
+  text-align: right;
+}
+
+#sidebar-menu {
+  /* visibilty: hidden; */
+  top: 0;
+  width: 200px;
+  height: 100%;
+  transition: 0.3s;
+  display: none;
+}
+
+#logo {
+  width: 30%;
+}
+
+#barber {
+  width: 60%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-items: left;
+}
+
+.infos {
+  margin-right: 15px;
+  text-align: right;
+  align-items: right;
+  line-height: 2em;
+  display: flex;
+}
+
+#passion {
+  padding-bottom: 0em;
+}
+
+#date {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#nombre {
+  padding-top: 1em;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#trois {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.intro {
+  text-align: left;
+  padding-top: 2em;
+  margin-left: 15px;
+}
+
+.colorful {
+  text-align: right;
+  background-color: lightgrey;
+  border-radius: 15px;
+  margin-left: 3px;
+  width: 90%;
+  padding: 1em;
+  margin-top: 6em;
+  text-align: right;
+}
+
+#color {
+  width: 40%;
+  border-radius: 15px;
+  z-index: 1;
+  position: relative;
+  right: 150px;
+  top: -80px;
+}
+
+#weaving {
+  width: 50%;
+  border-radius: 15px;
+  z-index: 3;
+  position: relative;
+  margin-right: 35px;
+  left: 10px;
+  top: -110px;
+}
+
+#greenSweater {
+  width: 40%;
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+  right: 130px;
+  top: -140px;
+}
+
+.items {
+  text-align: center;
+  margin-left: 15px;
+}
+#sweaters {
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#scarves {
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#hanging {
+  width: 60%;
+  border-radius: 15px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+input {
+  align-items: center;
+  border-radius: 10px;
+  background-color: lightgrey;
+  border: 0;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.tipsTricksPassion {
+  background-color: lightgray;
+  margin-top: 3em;
+  width: 100%;
+  height: fit-content;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#knitter {
+  width: 90%;
+}
+
+#tipstitle {
+  color: white;
+  text-align: left;
+  position: relative;
+  top: 50px;
+  right: 30px;
+}
+
+/* Bottom left text */
+#txtKnitter {
+  color: white;
+  text-align: left;
+  position: relative;
+  bottom: 150px;
+  right: 16px;
+  width: 15em;
+}
+
+#passiontitle {
+  position: relative;
+  bottom: -200px;
+  left: 90px;
+  color: white;
+}
+
+/* Bottom right text */
+#passiontxt {
+  text-align: right;
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  left: 20px;
+  width: 15em;
+  z-index: 2;
+  color: white;
+}
+
+#tree {
+  width: 90%;
+}
+
+.footer {
+  text-align: center;
+  line-height: 2em;
+}
+#logo2 {
+  width: 25%;
+  padding: 2em;
+}
+
+#linkedin {
+  width: 3em;
+  padding: 2em;
+  padding-right: 1em;
+}
+
+#facebook {
+  width: 3em;
+  padding: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#instagram {
+  width: 3em;
+  padding: 2em;
+  padding-left: 1em;
+}
+
+/* Responsive desktop version */
+@media screen and (min-width: 600px) {
+  #logo {
+    width: 15%;
+    margin-left: 10%;
+  }
+
+  #barber {
+    width: 40%;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 50%;
+  }
+
+  .infos {
+    display: flex;
+    text-align: right;
+    align-items: center;
+    padding-right: 15%;
+    padding-bottom: 10%;
+  }
+
+  .text {
+    text-align: right;
+    margin-left: 15px;
+  }
+  .intro {
+    text-align: left;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    margin-left: 10%;
+  }
+
+  .firstbox {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .colorful {
+    margin-left: 5%;
+  }
+
+  #colorfultxt {
+    width: 40%;
+    padding-left: 60%;
+  }
+
+  #color {
+    size: 10%;
+    padding-left: 20%;
+    border-radius: 15px;
+    display: flex;
+    bottom: 150%;
+  }
+
+  #weaving {
+    size: 40%;;
+    border-radius: 15px;
+    height: 40%;
+    left  :10%;
+  }
+
+  #greenSweater {
+    size: 40%;
+    height: 40%;
+    top: 20%;
+    bottom: 80%;
+    border-radius: 15px;
+    right : 60%;
+  }
+
+  .secondbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch
+    text-align: right;
+    top :50%;
+  } 
+
+    .items {
+        display: flex;
+        align-items: center;
+        flex-direction: row
+        padding-left: 8%;
+    }
+
+    #sweaters{
+        width: 80%;
+    } 
+    
+    #sweaterbox{
+        display: flex;
+    }
+
+    #scarves{
+        width: 65%;
+    } 
+    
+    #scarvesbox {
+        display: flex;
+    }
+
+    #hanging{
+        width: 62%;
+    }
+    
+    #hangingbox {
+        display: flex;
+    }
+
+    #knitter {
+        width: 80%;
+        align-items: left;
+        padding: 0;
+        margin-left: 4em;
+    }
+
+    #tree {
+        width : 80%;
+        align-items: right;
+        text-align: right;
+        padding-bottom: 8em;
+        margin-right: 2em;
+    }
+
+
+    .tipsTricksPassion{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tipstitle {
+        left : 4em;
+        text-align: left; 
+    }
+    
+    #txtKnitter{
+        left : 5em;
+        text-align: left; 
+    }
+
+   #passiontitle {
+    padding-bottom: 6em; 
+    left: 13em;
+   }
+   
+   #passiontxt{
+    left : 11em;
+    bottom : 17em;
+    text-align: right; 
+   }
+
+
+    }
